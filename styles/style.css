@@ -40,6 +40,7 @@ h1{
 
 h2{
     font-size: 3rem;
+    margin-bottom: 90px;
 }
 
 p{
@@ -53,7 +54,7 @@ p{
     font-weight: 300;
 }
 .section{
-    padding:100px 0;
+    padding:60px 0;
 }
 
 .boxed{
@@ -61,8 +62,14 @@ p{
     margin-inline: auto;
 }
 
-.flex{
+.flex {
     display: flex;
+    justify-content: space-between; /* Aligne les éléments sur les extrémités de la ligne */
+}
+
+.dark{
+    background:#000;
+    color: #fff;
 }
 
 .w40{
@@ -71,4 +78,39 @@ p{
 
 .w60{
     width: 60%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.gap50{
+    gap:50px;
+}
+
+.skill {
+    background: #1d2433;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skill img {
+    width: 200px;
+    height:100%;
+    aspect-ratio:1/1;
+    object-fit: contain;
+}
+
+.skill h3{
+    color: #fff;
+    margin-top: 20px;
 }
