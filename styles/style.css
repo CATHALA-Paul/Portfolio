@@ -39,11 +39,13 @@ h1{
 }
 
 h2{
+    color: #fff;
     font-size: 3rem;
     margin-bottom: 90px;
 }
 
 p{
+    color: #fff;
     font-size: 1.2rem;
     line-height: 1.5rem;
 }
@@ -55,6 +57,7 @@ p{
 }
 .section{
     padding:60px 0;
+    background:#282b2d;
 }
 
 .boxed{
@@ -68,8 +71,8 @@ p{
 }
 
 .dark{
-    background:#000;
-    color: #fff;
+    background:#FFF;
+    color: #000;
 }
 
 .w40{
@@ -111,6 +114,14 @@ p{
 }
 
 .skill h3{
-    color: #fff;
+    color: #000;
     margin-top: 20px;
+}
+
+.white-text {
+    color: #fff; /* Couleur blanche */
+}
+
+.black-text {
+    color: #000; /* Couleur noire */
 }
