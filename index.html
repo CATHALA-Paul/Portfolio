@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul CATHALA Portfolio</title>
+    <title>Portfolio de Paul CATHALA</title>
+    <meta type="description" content="Voici mon Portfolio">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -16,33 +19,99 @@
         </nav>
     </header>
 
-    <div id="presentation" class="section">
-        <h1>Paul CATHALA</h1>
-        <p>Je suis étudiant en Génie Électrique et Informatique Industrielle</p>
+    <div class="slider">
+        <img src="img/écran poto élec.png" class="slider-background">
+        <div class="slider-content">
+            <h1>Paul CATHALA</h1>
+            <p>Je suis étudiant en Génie Électrique et Informatique Industrielle</p>
+        </div>
     </div>
 
-    <div id="competences" class="section">
-        <h2>Compétences</h2>
-        <div class="skills">
-            <a href="skills/cpp.html"><img src="path/to/cpp.png" alt="C/C++"></a>
-            <a href="skills/electronique.html"><img src="path/to/electronique.png" alt="Électronique"></a>
-            <a href="skills/prout.html"><img src="path/to/prout.png" alt="Prout"></a>
-            <a href="skills/feur.html"><img src="path/to/feur.png" alt="Feur"></a>
+    <div id="presentation" class="section">
+        <div class="boxed">
+            <div class="flex">
+                <div class="w40">
+                    <h2>À propos de moi</h2>
+                </div>
+                <div class="w60">
+                    <p>Je suis Paul Cathala, un étudiant de 20 ans, actuellement en deuxième année du BUT en Génie
+                        Électrique et Informatique Industrielle (GEII) en alternance chez Proviteq. J'exerce dans un
+                        bureau d'études où je répare et remets à neuf des machines industrielles à destination du génie
+                        civil.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="competences" class="section dark">
+        <div class="boxed text-center">
+            <h2 class="black-text">Voici mes compétences</h2>
+            <div class="flex">
+                <div class="w25 skill">
+                    <a href="skills/cpp.html">
+                        <img src="img/ISO_C++_Logo.png">
+                        <h3>C/C++</h3>
+                    </a>
+                </div>
+                <div class="w25 skill">
+                    <a href="skills/electronique.html">
+                        <img src="img/logo_electronique-removebg-preview.png">
+                        <h3>Electronique</h3>
+                    </a>
+                </div>
+                <div class="w25 skill">
+                    <a href="skills/prout.html">
+                        <img src="img/ISO_C++_Logo.png">
+                        <h3>PROUT</h3>
+                    </a>
+                </div>
+                <div class="w25 skill">
+                    <a href="skills/feur.html">
+                        <img src="img/ISO_C++_Logo.png">
+                        <h3>FEUR</h3>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
     <div id="projets" class="section">
-        <h2>Projets</h2>
-        <div class="projects">
-            <a href="projects/projet1.html"><img src="path/to/projet1.png" alt="Projet 1"></a>
-            <a href="projects/projet2.html"><img src="path/to/projet2.png" alt="Projet 2"></a>
-            <a href="projects/projet3.html"><img src="path/to/projet3.png" alt="Projet 3"></a>
-            <a href="projects/projet4.html"><img src="path/to/projet4.png" alt="Projet 4"></a>
+        <div class="boxed text-center">
+            <h2 class="black-text">Voici mes projets</h2>
+            <div class="flex">
+                <div class="w25 project">
+                    <a href="projects/projet1.html">
+                        <img src="img/projet1.png">
+                        <h3>Projet 1</h3>
+                    </a>
+                </div>
+                <div class="w25 project">
+                    <a href="projects/projet2.html">
+                        <img src="img/projet2.png">
+                        <h3>Projet 2</h3>
+                    </a>
+                </div>
+                <div class="w25 project">
+                    <a href="projects/projet3.html">
+                        <img src="img/projet3.png">
+                        <h3>Projet 3</h3>
+                    </a>
+                </div>
+                <div class="w25 project">
+                    <a href="projects/projet4.html">
+                        <img src="img/projet4.png">
+                        <h3>Projet 4</h3>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
     <footer class="footer">
         <p>&copy; 2024 Paul CATHALA. Tous droits réservés.</p>
     </footer>
+
+    <script src="js/app.js"></script>
 </body>
+
 </html>
