@@ -14,7 +14,7 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 4px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -24,14 +24,14 @@ header {
 header nav {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 header nav a {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
-    font-size: 1.2rem; 
+    font-size: 1.3rem; 
     transition: background 0.3s;
 }
 
