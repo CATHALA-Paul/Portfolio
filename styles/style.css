@@ -8,7 +8,7 @@
 
 body {
     font-family: "Inter", sans-serif;
-    background: #f4f4f4;
+    background: #00061a;
 }
 
 header {
@@ -40,10 +40,9 @@ header nav a:hover {
 
 .slider {
     width: 100%;
-    height: 80vh;
+    height: 100vh; /* Take full viewport height */
     background: #000;
     position: relative;
-    margin-top: 60px;
 }
 
 .slider-background {
